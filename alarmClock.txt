@@ -1,0 +1,16 @@
+#Pseudo code
+Start
+
+#step 1
+    user pickes what time they want the alarm to go off at
+
+#step 2
+    When a alarm is set if the current time is equal to the set time for the alarm the clock will ring.
+    repeate step 2 till true
+#step 3 
+    If snoozed is pressed stop ring and ring again in 10 min
+
+#step 4 
+    If end is pressed stop ring.
+
+End
