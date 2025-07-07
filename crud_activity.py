@@ -46,20 +46,20 @@ def main():
 
         if choice == "1":
             recipe = input("Enter the name of the recipe: ")
-            create(recipe)
+            add_recipe(recipe)
         elif choice == "2":
             index = input("Enter the index of the recipe to read: ")
             index = int(index)
-            read(index)
+            find_recipe(index)
         elif choice == "3":
             index = input("Enter the index of the recipe to update: ")
             recipe = input("Enter the name of the recipe you want to update it with: ")
             index = int(index)
-            update(index, recipe)
+            update_recipe(index, recipe)
         elif choice == "4":
             index = input("Enter the index of the recipe to delete: ")
             index = int(index)
-            destroy(index)
+            delete_recipe(index)
         elif choice == "5":
             list_all_recipes()
         elif choice == "6":

@@ -5,7 +5,6 @@ name = "Mia Carozza"
 nickname = "Mia"
 
 age = 16
-print(age)
 
 used_python = False
 
