@@ -1,3 +1,5 @@
+#Debugging activity Mia Carozza
+
 #Code Snippet 1:
 # Incorrect:
 x = 10
@@ -33,6 +35,71 @@ def is_even(number):
  
 print(is_even(4))
 print(is_even(7))
+
+
+# Code Snippet 5:
+# Incorrect:
+for i in range(5):
+   print(i)
+
+
+   #Code Snippet 6:
+# Incorrect:
+def greet(name):
+   return f"Hello, {name}"
+ 
+print(greet("Alice"))
+
+
+#Code Snippet 7:
+# Incorrect:
+numbers = [1, 2, 3, 4, 5]
+sum = 0
+for number in numbers:
+   sum += number
+print("Sum of numbers:", sum)
+
+
+
+#Code Snippet 8:
+# Incorrect:
+def factorial(n):
+   if n == 0:
+       return 1
+   else:
+       return n * factorial(n-1)
+ 
+print(factorial(5))
+
+
+
+#Code Snippet 9:
+# Incorrect:
+name = input("Enter your name: ")
+if name == ("Alice" or "Bob"):
+   print("Hello, " + name)
+else:
+   print("Hello, stranger!")
+
+
+   #Code Snippet 10:
+# Incorrect:
+def divide_numbers(x, y):
+   result = x / y
+   return result
+ 
+num1 = 10
+num2 = 2
+print(divide_numbers(num1, num2))
+
+
+
+
+
+
+
+
+
 
 
 
