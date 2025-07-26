@@ -6,11 +6,12 @@ cookbook = []
 
 def add_recipe(recipe):
     cookbook.append(recipe)
+    print(cookbook)
 
 #Step 3
 def find_recipe(index):
     if 0 <= index < len(cookbook):
-        return cookbook[index]
+        print(cookbook[index])
 
 #Step 4
 def update_recipe(index, new_recipe):
