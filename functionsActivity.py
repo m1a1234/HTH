@@ -12,20 +12,20 @@ def total_price(item1, item2):
 
 
 def  price_difference(item1, item2):
-    difference = menu[item1] - menu[item2]
+    difference =abs(menu[item1] - menu[item2])
     return f"The difference between {item1} and {item2} is {difference}"
 
-def inflation(item):
-    new_price = menu[item] * 1.05
+def inflation(item, change):
+    new_price = menu[item] * change
     menu[item] = new_price
+    print(f"The new price of {item} after inflation is {new_price}")
     return menu
-    return f"The new price of {item} after inflation is {new_price}"
 
-def deflation (item):
-    new_price = menu[item] / 1.05
+def deflation (item, change):
+    new_price = menu[item] / change
     menu[item] = new_price
+    print(f"The new price of {item} after deflation is {new_price}")
     return menu
-    return f"The new price of {item} after deflation is {new_price}"
 
 def add_item(item, price):
     menu[item] = price
