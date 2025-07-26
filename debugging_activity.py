@@ -11,7 +11,7 @@ print("Result:", result)
 # Incorrect: index out of range error
 numbers = [1, 2, 3, 4, 5]
 for i in range(len(numbers) - 1):
-   print(numbers[i+1])
+   print(numbers[i])
 
 
 #Code Snippet 3:
