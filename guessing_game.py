@@ -16,7 +16,6 @@ def get_user_guess():
 
 def play_guessing_game():
     secret_number = generate_random_number() 
-    print(secret_number)
     guess = get_user_guess()
 
     number = False
@@ -36,4 +35,16 @@ def play_guessing_game():
             number = True
             print ("You got it")
 
-play_guessing_game()
+def game_loop():
+    running = True
+    while  running == True:
+        play_guessing_game()
+        question = input("Do you want to play again? yes/no")
+        if question == "yes":
+            play_guessing_game
+            running = True
+        elif question == "no":
+            print("Thank you for playing")
+            running = False
+
+game_loop()
